@@ -27,17 +27,14 @@ class _WishListScreenState extends State<WishListScreen> {
           ),
         ),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8),
-          child: GridView.builder(
-              itemCount: 30,
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
-                mainAxisSpacing: 16,
-              ),
-              itemBuilder: (context, index) {
-               // return FittedBox(child: ProductCard());
-              }),
-        ),
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              Text('Prosejit Sarker'),
+              Text('Live Code Editing')
+            ]
+          ),
+        )
       ),
     );
   }
