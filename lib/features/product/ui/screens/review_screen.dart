@@ -116,7 +116,7 @@ class UserReviewCard extends StatelessWidget {
                 const SizedBox(width: 16.0),
                 const Expanded(
                   child: Text(
-                    'Sanaul Parvej',
+                    'Prosenji Sarker',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0,
